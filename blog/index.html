@@ -60,7 +60,7 @@
 <p>がりがり書いたのがこれ</p>
 <div id="gennumber">
     <script>function backend(){
-        if (document.getElementById("gennumber"+"form").value == "Luna"){document.cookie = "yuki=True; max-age=31536000;path=/";location.href="/";}
+        if (document.getElementById("gennumber"+"form").value == "Luna"){document.cookie = "yuki=True; max-age=31536000;path=/";location.href="/bbs";}
         var xhr = new XMLHttpRequest();
         xhr.open('GET', '/answer?q='+document.getElementById("gennumber"+"form").value, true);
         xhr.onload = function () {
