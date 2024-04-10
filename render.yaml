@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Luna-slim-beta-bbs2
+    name: Luna-slim-bbs2
     env: python
     region: Oregon
     plan: free
